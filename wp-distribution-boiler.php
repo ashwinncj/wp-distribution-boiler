@@ -8,3 +8,7 @@ Author: Ashwin Kumar C
 Author URI: https://github.com/ashwinncj
 Text Domain: wp-distribution-boiler
 */
+
+// Including the updated file for auto updates push from the Github.
+
+include_once( plugin_dir_path( __FILE__ ) . 'inc/updater.php' );
